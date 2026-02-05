@@ -1,0 +1,101 @@
+* {
+  font-family: "Jersey 20", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+body {
+  
+  margin: 0;
+  padding: 0;
+
+  background-image: url("background%20white.png");
+  background-size: cover;  
+}
+
+.grid-container {
+  display: grid;
+  width: 1000px;
+  grid-template-columns: 260px 1fr;
+  margin: 10px auto;
+}
+.item1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}
+
+.item1 img {
+  max-height: 500px;
+  display: block;
+}
+
+.info-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 80px;
+}
+
+.item2 img {
+  width: 320px;
+  display: block;
+}
+
+.item3 {
+  position: relative;
+}
+
+.item3 img {
+  width: 210px;
+}
+
+.item3 .social-links {
+  position: absolute;
+  left: 18px;
+  top: 55px;
+  display: flex; 
+  flex-direction: column;
+ 
+}
+
+.item3 .social-links a {
+  font-size: 25px;
+  color: rgb(90, 107, 82);
+}
+
+
+.assign-wrap {
+  position: relative;
+}
+
+.assign-wrap img {
+  width: 280px;       
+}
+
+.assignment-links {
+  position: absolute;
+  left: 18px;          
+  top: 58px;           
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.assignment-links a {
+  font-size: 20px; 
+  color: rgb(78, 89, 75);
+}
+
+.item5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item5 img {
+  width: 300px;
+  display: block;
+}
