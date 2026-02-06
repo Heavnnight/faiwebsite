@@ -1,29 +1,18 @@
-/* الخط */
 * {
   font-family: "Jersey 20", sans-serif;
   font-weight: 400;
-  font-style: normal;
-  box-sizing: border-box;
 }
 
-/* خلفية الصفحة */
 body {
-  margin: 0;
-  padding: 0;
-  background-image: url("background%20white.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: url("background white.png");
+
 }
 
-/* توحيد حجم الصور (نفس اللي طالع عندك حلو) */
 img {
-  width: 260px;      /* تقدرين تغيّرينه إذا تبغين */
+  width: 260px;   
   height: auto;
-  display: block;
 }
 
-/* القريد الرئيسي */
 .grid-container {
   display: grid;
   width: 1000px;
@@ -32,41 +21,22 @@ img {
   align-items: start;
 }
 
-/* صورة الشخصية */
 .item1 {
   display: flex;
   justify-content: center;
-  align-items: center;
   margin: 100px;
 }
 
-/* ✅ صندوق اليمين (هذا هو التعديل المهم) */
 .info-box {
   display: grid;
-
-  /* بدل 1fr اللي يخليهم يتباعدون */
   grid-template-columns: repeat(2, 260px);
-
-  gap: 20px;
-  margin-top: 80px;
-
-  /* يخليهم يتجمعون ويسار (قريبين) */
-  justify-content: start;
-  align-content: start;
+  gap: 30px;
+  margin-top: 100px;
+  margin-left: 90px;  
 }
 
-/* about */
-.item2 img {
-  /* نخليها تورث من img العام */
-}
-
-/* social */
 .item3 {
   position: relative;
-}
-
-.item3 img {
-  /* نخليها تورث من img العام */
 }
 
 .item3 .social-links {
@@ -78,23 +48,13 @@ img {
 }
 
 .item3 .social-links a {
-  font-size: 25px;
+  font-size: 23px;
   color: rgb(90, 107, 82);
   text-decoration: none;
 }
 
-/* assignments */
-.item4 {
-  position: relative;
-}
-
 .assign-wrap {
   position: relative;
-}
-
-.assign-wrap img {
-  /* نخليها تورث من img العام */
-  pointer-events: none;
 }
 
 .assignment-links {
@@ -103,28 +63,14 @@ img {
   top: 58px;
   display: flex;
   flex-direction: column;
-  z-index: 10;
 }
 
 .assignment-links a {
   font-size: 20px;
   color: rgb(78, 89, 75);
   text-decoration: none;
-  display: inline-block;
 }
 
-/* new assignment */
-.item5 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.item5 img {
-  /* نخليها تورث من img العام */
-}
-
-/* زر الرجوع */
 .back-home{
   position: fixed;
   top: 20px;
@@ -135,5 +81,5 @@ img {
   text-decoration: none;
   color: #000;
   font-size: 18px;
-  z-index: 9999;
+
 }

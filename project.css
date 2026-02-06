@@ -3,14 +3,12 @@
 body{
 background-image: url("background white.png");
   background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .project-container{
   width: 1150px;
   margin: 60px auto;
 }
-
 
 .project-header{
   background:#ffffff;
@@ -44,9 +42,8 @@ background-image: url("background white.png");
 }
 
 .project-iframe{
-  width: 404px;
-  height: 404px;
-  display: block;
+  width: 400px;
+  height: 400px;
 
 }
 
@@ -59,22 +56,11 @@ background-image: url("background white.png");
   text-align: center;
   font-size: 40px;
   color: #1e1e1e;
-  margin-bottom: 18px;
 }
 
 .frame-about p{
   font-size: 22px;
-  line-height: 1.6;
+  line-height: 1.4;
   color: #000000;
 }
-
-.about-box{
-  position: relative;
-}
-
-.about-box img{
-  width: 100%;
-  display: block;
-}
-
 
