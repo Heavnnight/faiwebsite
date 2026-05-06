@@ -1,12 +1,10 @@
-
-
 body{
-background-image: url("background white.png");
+  background-image: url("background white.png");
   background-size: cover;
 }
 
 .project-container{
-  width: 1150px;
+  width: 1400px;
   margin: 60px auto;
 }
 
@@ -25,7 +23,7 @@ background-image: url("background white.png");
 .project-grid{
   margin-top: 50px;
   display: grid;
-  grid-template-columns: max-content 300px;
+  grid-template-columns: 900px 320px;
   gap: 40px;
   justify-content: center; 
   align-items: start;
@@ -34,17 +32,17 @@ background-image: url("background white.png");
 .frame{
   border: 10px solid #c5c5c5;
   outline: 3px solid #000;
+  background: white;
 }
-
 
 .project-preview{
   display: inline-block;
 }
 
 .project-iframe{
-  width: 400px;
-  height: 400px;
-
+  width: 900px;
+  height: 700px;
+  border: none;
 }
 
 .frame-about .frame-inner{
@@ -64,3 +62,76 @@ background-image: url("background white.png");
   color: #000000;
 }
 
+.back-home{
+  display: inline-block;
+  margin-top: 40px;
+  padding: 12px 20px;
+  background: white;
+  border: 4px solid #000;
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+/* TYPOGRAPHY PAGE */
+
+.typography-page .project-container{
+  width: 95%;
+  max-width: 1600px;
+}
+
+.typography-page .typo-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.typography-page .frame-project{
+  width: 100%;
+  height: 500px;
+}
+
+.typography-page .project-preview{
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 0;
+}
+
+.typography-page .project-iframe{
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* COMMUNITY TOOL PAGE */
+
+.community-page .project-preview{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 900px;
+  min-height: 520px;
+  padding: 20px;
+}
+
+.community-page .project-image{
+  width: 760px;
+  max-width: 100%;
+  border: 3px solid black;
+  display: block;
+}
+
+.community-page .visit-button{
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: white;
+  border: 4px solid black;
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+}
