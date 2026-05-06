@@ -1,0 +1,40 @@
+.project-container{
+  width: 95%;
+  max-width: 1500px;
+  margin: 60px auto;
+}
+
+.camera-layout{
+  margin-top: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  gap: 60px;
+}
+
+.camera-layout .frame-project{
+  width: 520px;
+}
+
+.camera-preview{
+  width: 500px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
+}
+
+.camera-iframe{
+  width: 480px;
+  height: 620px;
+  border: none;
+  display: block;
+}
+
+.camera-about{
+  width: 360px;
+}
